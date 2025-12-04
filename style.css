@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 30px;
+    background: white;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #e36d2f;
+}
+
+.search {
+    flex: 1;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+}
+
+.nav-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+/* HERO SECTION */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 350px;
+    gap: 20px;
+    padding: 40px;
+}
+
+.hero-left {
+    background: #0d4955;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+.hero-left h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-left p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.hero-left button {
+    background: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Right column */
+.hero-right img,
+.hero-smallbox img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hero-smallbox {
+    text-align: center;
+}
+
+.hero-smallbox h2 {
+    margin: 15px 0 5px 0;
+}
+
+.hero-smallbox button {
+    padding: 8px 16px;
+    border: 1px solid #333;
+    border-radius: 25px;
+    background: white;
+    cursor: pointer;
+}
+
+/* FEATURED GRID */
+.featured {
+    padding: 30px 40px;
+}
+
+.grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
